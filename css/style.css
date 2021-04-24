@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li a {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 1.1rem;
+}
+
+ol li{
+    font-size: 1.1rem;
+}
+
+h2, h3, ol li{
+    color: #455a64;
+}
+
+i.fas {
+    margin-right: 6px;
+}
+
+element.style {
+    margin-left: 20px;
+}
+header {
+    position: relative;
+}
+
+.lemon {
+    background-image: url('/img/lemon-pie.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(0.5);
+    height: 500px;
+    width: 100%;
+}
+
+.texto {
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+h2{
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.texto p {
+    font-size: 1.3rem;
+    padding-right: 120px;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+}
+
+footer p {
+    margin: 0px;
+}
